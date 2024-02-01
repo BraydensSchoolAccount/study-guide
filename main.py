@@ -16,8 +16,8 @@ for i in names:
     print(f"The first letter of {i} is {i[0]}")
 
 numbers = [3, 4, 5, 5, 12, 13, 5, 8, 7, 4, 5]
-print(f"There are {numbers.count(5)} 5s in the list")
+print(f"There are {numbers.count(5)} fives in the following list: {numbers}")
 new_numbers = numbers.copy()
 new_numbers.remove(5)
 new_numbers.remove(5)
-print(f"If you remove the first 2 5s in the list, it has {len(new_numbers)} elements")
+print(f"If you remove the first 2 fives in the list, it has {len(new_numbers)} elements")
